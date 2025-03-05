@@ -28,7 +28,7 @@
 
 body {
     line-height: 1.6;
-    background-color: rgb(255, 232, 205);
+    background-color: rgb(197, 197, 197);
 }
 
 .navbar {
@@ -44,7 +44,7 @@ body {
 }
 
 .navbar a {
-    color: rgb(255, 255, 255);
+    color: rgb(197, 197, 197);
     text-decoration: none;
 }
 
@@ -52,7 +52,7 @@ body {
 /*para aumentar a letra use: font-weight: bold*/
 
 .navbar a:hover {
-    color: rgb(253, 196, 130);
+    color: rgb(197, 197, 197);
 }
 
 /*para quando você apertar no menu, o nome do botom que você apertou, irá mudar de cor*/
@@ -73,13 +73,13 @@ body {
 section {
     margin: 32px 0;
     padding: 32px;
-    background-color: rgb(255, 232, 205);
+    background-color: rgb(197, 197, 197);
     border-radius: 8px;
 }
 
 .conteudo {
     padding: 16px;
-    border-bottom: 2px solid rgb(255, 232, 205);
+    border-bottom: 2px solid rgb(197, 197, 197);
     margin-bottom: 16px;
 }
 
