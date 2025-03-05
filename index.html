@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Bem-vindo ao Brechó Online</title>
-    <p>Encontre roupas e acessórios incríveis</p>
 </head>
 
 <body>
@@ -19,6 +18,18 @@
                 <li><a href="#contato">Contato</a></li>
                 <!--o (a) é para que ele possa ser um link clicável-->
             </ul>
+
+        </nav>
+
+    </header>
+    <!--corpo-->
+    <main>
+
+        <div class="titulo_pag">
+            <h3>Bem vindo ao Brechó Online</h3>
+            <br>
+            <p>Encontre roupas e acessórios incríveis a preços acessíveis.</p>
+        </div>
 
             <form action="#" method="post">
                 <label for="nome">Nome:</label>
@@ -36,12 +47,18 @@
     <main>
         <!-- separar seções, recorte da tela-->
         <section id="Produtos">
+            <div class="titulo_pag">
+                <h3>Produtos</h3>
+            </div>
 
         </section>
 
+
+        <!-- separar seções, recorte da tela-->
+
         <section id="Sobre">
-            <div class="conteudo">
-                <h2>Sobre nós</h2>
+            <div class="titulo_pag">
+                <h3>Sobre nós:</h3>
                 <p>Somos um brecho online dedicado a oferecer roupas e acessórios de qualidade a preços acessíveis.
                     Nossa missão é proporcionar uma experiência de compra única, onde você pode encontrar peças
                     exclusivas e estilosas sem gastar muito.
@@ -76,7 +93,29 @@
         </section>
 
         <section id="Contato">
+            <div class="descricao">
+                <h3>Contato</h3>
+                <p>Entre em contato conosco para saber mais sobre nossos produtos e serviços.</p>
+                <br>
 
+
+                <form action="#" method="post">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
+                    <button type="submit">Enviar</button>
+                    <br>
+                    <label for="email">E-mail:</label>
+                    <input type="text" id="email" name="email" required>
+                    <button type="submit">Enviar</button>
+                    <br>
+                    <label for="Mensagem">Mensagem:</label>
+                    <input type="text" id="mensagem" name="email" required>
+
+                    <button type="submit">Enviar</button>
+
+            </div>
+
+            </form>
         </section>
     </main>
 
