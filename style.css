@@ -17,6 +17,15 @@
     width: 100%;
 }
 
+.descricao {
+    color: rgb(0, 0, 0);
+    padding: 16px;
+    margin-top: 32px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
 body {
     line-height: 1.6;
     background-color: rgb(255, 232, 205);
