@@ -7,6 +7,16 @@
 
 /*usar o (*) serve para que todo o seu código fique com a mesma regra que vc colocou no css*/
 
+.titulo_pag {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 16px;
+    margin-top: 32px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
 body {
     line-height: 1.6;
     background-color: rgb(255, 232, 205);
