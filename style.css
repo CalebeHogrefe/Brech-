@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/*usar o (*) serve para que todo o seu código fique com a mesma regra que vc colocou no css*/
+
+body {
+    line-height: 1.6;
+    background-color: rgb(255, 140, 194);
+}
+
+.navbar {
+    background-color: rgb(255, 196, 123);
+    padding: 16px;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+
+.navbar a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/*para retirar o sublinhado do link (aquele azul) use:  text-decoration: none*/
+/*para aumentar a letra use: font-weight: bold*/
+
+.navbar a:hover {
+    color: rgb(255, 140, 194);
+}
+
+/*para quando você apertar no menu, o nome do botom que você apertou, irá mudar de cor*/
+
+.rodape {
+    background-color: rgb(255, 196, 123);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 16px;
+    margin-top: 32px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/*o bottom serve para o rodapé ficar no final da página: (bottom: 0;)*/
+
+section {
+    margin: 32px 0;
+    padding: 32px;
+    background-color: rgb(255, 95, 169);
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.conteudo {
+    padding: 16px;
+    border-bottom: 2px solid rgb(255, 140, 194);
+    margin-bottom: 16px;
+}
+
+.imagem {
+    width: 100%;
+    max-width: 400px;
+    margin: 16px auto;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.imagem img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
