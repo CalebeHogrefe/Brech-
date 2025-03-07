@@ -46,14 +46,26 @@ body {
     color: rgb(197, 197, 197);
 }
 
-.carousel {
+.carrossel {
     display: flex;
     overflow: hidden;
-    width: 300px;
+    width: 100%;
+    max-width: 600px;
+    align-content: center;
+    padding: 20px;
+    margin: 10px;
+    height: auto;
 }
 
-.carousel img {
+.bloco {
+    border: 1px solid;
+    padding: 20px;
+    margin: 10px;
+}
+
+.bloco img {
     width: 100%;
+    height: auto;
     transition: transform 0.5s ease-in-out;
 }
 
