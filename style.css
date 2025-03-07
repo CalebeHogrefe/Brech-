@@ -132,4 +132,5 @@ section {
     align-items: center;
     background-color: black;
     opacity: 0.8;
+    border-radius: 10px;
 }
