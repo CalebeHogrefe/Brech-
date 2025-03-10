@@ -6,6 +6,7 @@ body {
     font-family: Arial, sans-serif;
 }
 
+
 .titulo_pag {
     color: rgb(0, 0, 0);
     text-align: center;
@@ -16,6 +17,7 @@ body {
     width: 100%;
 }
 
+
 .descricao {
     color: rgb(0, 0, 0);
     padding: 1rem;
@@ -25,10 +27,12 @@ body {
     width: 100%;
 }
 
+
 .navbar {
     background-color: #333;
     padding: 1rem;
 }
+
 
 .navbar ul {
     list-style: none;
@@ -37,14 +41,17 @@ body {
     gap: 2rem;
 }
 
+
 .navbar a {
     color: rgb(255, 255, 255);
     text-decoration: none;
 }
 
+
 .navbar a:hover {
     color: rgb(197, 197, 197);
 }
+
 
 .carrossel {
     display: flex;
@@ -55,13 +62,16 @@ body {
     padding: 20px;
     margin: 10px;
     height: auto;
+   
 }
 
+
 .bloco {
-    border: 1px solid;
-    padding: 20px;
+    border: 5px solid;
+    padding: 30px;
     margin: 10px;
 }
+
 
 .bloco img {
     width: 100%;
@@ -69,11 +79,13 @@ body {
     transition: transform 0.5s ease-in-out;
 }
 
+
 .conteudo {
     padding: 16px;
     border-bottom: 2px solid rgb(197, 197, 197);
     margin-bottom: 16px;
 }
+
 
 .imagem {
     width: 100%;
@@ -88,6 +100,7 @@ body {
     display: block;
 }
 
+
 .card-produto {
     background-color: #fff9e6;
     padding: 1.5rem;
@@ -95,12 +108,14 @@ body {
     border-left: 4px solid #ffd700;
 }
 
+
 .info-contato {
     background-color: #e6f3ff;
     padding: 1.5rem;
     margin: 1rem 0;
     border-radius: 5%;
 }
+
 
 .rodape {
     background-color: #333;
@@ -113,9 +128,11 @@ body {
     width: 100%;
 }
 
+
 #sobre {
     border: 2px solid #ffd700;
 }
+
 
 #contato {
     position: fixed;
@@ -129,11 +146,18 @@ body {
     border-radius: 10px;
 }
 
+
 #formulario-contato {
     padding: 20px;
     background-color: rgb(86, 86, 86);
 }
 
+
 #formulario-contato h2, label {
     color: white;
+}
+
+#Produtos {
+    margin: 2rem 0;
+    padding: 2rem;
 }
